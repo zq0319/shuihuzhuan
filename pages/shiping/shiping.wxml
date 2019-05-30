@@ -1,0 +1,9 @@
+<view class='box'>
+  <input placeholder='请输入要搜索的电影' bindinput='input' class='input'></input>
+  <block wx:for="{{list}}" wx:key="{{key}}">
+    <view class='list'>
+      <view class='list_title'>{{item.title}}</view>
+      <view class='list_plot' bindtap='btn' data-name='{{item}}'>{{item.plot_simple}}</view>
+    </view>
+  </block>
+</view>

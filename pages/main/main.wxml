@@ -1,0 +1,21 @@
+<view class='box'>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" class='swiper'>
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item class="{{swiper_item}}">
+        <image src="{{item.img}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <scroll-view class='list' scroll-x>
+    <block wx:for="{{list}}" wx:key="{{index}}">
+      <view class='list_item' bindtap='btn' data-name='{{item}}' style="width:20%;height:40%">{{item.name}}</view>
+    </block>
+  </scroll-view>
+  <view class='footer'>
+    <view class='footer1' bindtap='shiping'>观看视频</view>
+    <view class='footers'>
+      <view class='footer2' bindtap='xiaoshuo'>观看小说</view>
+      <view class='footer3' bindtap='juyiting'>人物介绍</view>
+    </view>
+  </view>
+</view>

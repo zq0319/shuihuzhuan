@@ -1,0 +1,9 @@
+<view class='box'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class='list' >
+      <image src='{{item.img}}'class="img"></image>
+      <view class='name' bindtap='btn' data-item='{{item}}'>{{item.name}}</view>
+      <image src='../../images/5.png' class='imgs'></image>
+    </view>
+  </block>
+</view>

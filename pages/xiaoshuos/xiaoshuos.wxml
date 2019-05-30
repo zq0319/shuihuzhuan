@@ -1,0 +1,4 @@
+<view class='box'>
+    <view class='title'>{{list.title}}</view>
+    <view class='neirong'>{{list.content}}</view>
+</view>

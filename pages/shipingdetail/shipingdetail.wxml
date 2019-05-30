@@ -1,0 +1,12 @@
+<view class='box'>
+    <view class='title'>片名：{{list.title}}</view>
+    <image src='{{list.poster}}' class='img'></image>
+    <view class='actors'>主演：{{list.actors}}</view>
+    <view class='country'>国家：{{list.country}}</view>
+    <view class='directors'>导演{{list.directors}}</view>
+    <view class='genres'>类型：{{list.genres}}</view>
+    <view class='language'>语言：{{list.language}}</view>
+    <view class='simple'>介绍：{{list.plot_simple}}</view>
+    <view class='runtime'>时长：{{list.runtime}}</view>
+    <button class='btn' bindtap='btn'>点击观看</button>
+</view>

@@ -1,0 +1,7 @@
+<view class='box'>
+  <image src='{{detail.img}}' class='img'></image>
+  <view class='name'>姓名：{{detail.name}}</view>
+  <view class='title'>职位：{{detail.title}}</view>
+  <view class='des'>外号：{{detail.des}}</view>
+  <view class='contnet'>人物生平：{{detail.contnet}}</view>
+</view>

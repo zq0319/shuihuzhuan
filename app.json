@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/detail/detail",
+    "pages/juyiting/juyiting",
+    "pages/shiping/shiping",
+    "pages/xiaoshuo/xiaoshuo",
+    "pages/xiaoshuos/xiaoshuos",
+    "pages/shipingdetail/shipingdetail",
+    "pages/autio/autio"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A79E72",
+    "navigationBarTitleText": "水浒传",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/juyiting/juyiting",
+      "text": "聚义厅"
+    },
+    {
+      "pagePath": "pages/shiping/shiping",
+      "text": "视频"
+    },
+    {
+      "pagePath": "pages/xiaoshuo/xiaoshuo",
+      "text": "小说"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

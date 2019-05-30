@@ -1,0 +1,5 @@
+<view class='box'>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view bindtap='btn' class='book' data-ckey='{{item.ckey}}'>{{item.name}}</view>
+  </block>
+</view>
